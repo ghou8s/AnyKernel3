@@ -5,6 +5,21 @@
 OUTFD=/proc/self/fd/$2;
 ZIPFILE="$3";
 
+ui_print() {
+  echo "ui_print $1" > "$OUTFD";
+  echo "ui_print" > "$OUTFD";
+}
+
+ui_print " ";
+ui_print "          CAREFULL!!! CURSE ADDED          ";
+ui_print " ";
+ui_print "===========================================";
+ui_print "=           Maintained by: Curse          =";
+ui_print "===========================================";
+ui_print " ";
+ui_print "  Preparing your self for feel the Curse!  ";
+ui_print " ";
+
 ps | grep zygote | grep -v grep >/dev/null && BOOTMODE=true || BOOTMODE=false;
 $BOOTMODE || ps -A 2>/dev/null | grep zygote | grep -v grep >/dev/null && BOOTMODE=true;
 
