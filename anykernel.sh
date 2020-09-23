@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Curse-EAS Kernel for Xiaomi Mi 8 Lite [Platina]
+kernel.string=Curse-Kernel for Xiaomi Mi 8 Lite [Platina]
 do.devicecheck=1
 do.modules=0
 do.systemless=1
