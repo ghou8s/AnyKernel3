@@ -10,11 +10,7 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=miatoll
-device.name2=curtana
-device.name3=excalibur
-device.name4=gram
-device.name5=joyeuse
+device.name1=joyeuse
 supported.versions=10.0-11.0
 supported.patchlevels=
 '; } # end properties
