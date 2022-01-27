@@ -81,10 +81,6 @@ fi
 ## AnyKernel boot install
 dump_boot;
 
-# begin ramdisk changes
-
-# end ramdisk changes
-
 write_boot;
 ## end boot install
 
@@ -104,13 +100,3 @@ write_boot;
 
 #flash_boot;
 ## end vendor_boot install
-
-ui_print " ";
-ui_print " ";
-ui_print " JandaX Is Installed ";
-ui_print " Wet and Creamy ";
-ui_print " ";
-ui_print " Carefull!!! Curse added ";
-ui_print " ";
-ui_print " ";
-
